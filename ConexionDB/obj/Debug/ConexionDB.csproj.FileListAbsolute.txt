@@ -1,0 +1,36 @@
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ConexionDB\bin\Debug\ConexionDB.dll.config
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ConexionDB\bin\Debug\ConexionDB.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ConexionDB\bin\Debug\ConexionDB.pdb
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ConexionDB\bin\Debug\EntityFramework.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ConexionDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ConexionDB\bin\Debug\EntityFramework.xml
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ConexionDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ConexionDB\obj\Debug\ConexionDB.csprojAssemblyReference.cache
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ConexionDB\obj\Debug\ConexionDB.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ConexionDB\obj\Debug\ConexionDB.csproj.CopyComplete
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ConexionDB\obj\Debug\ConexionDB.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ConexionDB\obj\Debug\ConexionDB.pdb
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ConexionDB\bin\Debug\ConexionDB.dll.config
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ConexionDB\bin\Debug\ConexionDB.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ConexionDB\bin\Debug\ConexionDB.pdb
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ConexionDB\bin\Debug\EntityFramework.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ConexionDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ConexionDB\bin\Debug\EntityFramework.xml
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ConexionDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ConexionDB\obj\Debug\ConexionDB.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ConexionDB\obj\Debug\ConexionDB.csproj.CopyComplete
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ConexionDB\obj\Debug\ConexionDB.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ConexionDB\obj\Debug\ConexionDB.pdb
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ConexionDB\obj\Debug\ConexionDB.csprojAssemblyReference.cache
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ConexionDB\obj\Debug\ConexionDB.csprojAssemblyReference.cache
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ConexionDB\obj\Debug\ConexionDB.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ConexionDB\obj\Debug\ConexionDB.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ConexionDB\obj\Debug\ConexionDB.pdb
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ConexionDB\bin\Debug\ConexionDB.dll.config
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ConexionDB\bin\Debug\ConexionDB.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ConexionDB\bin\Debug\ConexionDB.pdb
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ConexionDB\bin\Debug\EntityFramework.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ConexionDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ConexionDB\bin\Debug\EntityFramework.xml
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ConexionDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ConexionDB\obj\Debug\ConexionDB.csproj.CopyComplete

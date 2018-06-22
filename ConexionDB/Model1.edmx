@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="ProyectoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Carreras">
+          <Key>
+            <PropertyRef Name="Código de carrera" />
+          </Key>
+          <Property Name="Código de carrera" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Nombre de carrera" Type="nvarchar" MaxLength="50" />
+          <Property Name="Cantidad de clases" Type="int" />
+          <Property Name="Cantidad de Maestros" Type="int" />
+        </EntityType>
+        <EntityType Name="Clases">
+          <Key>
+            <PropertyRef Name="Código de clase" />
+          </Key>
+          <Property Name="Código de clase" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Descripción de clase" Type="nvarchar" MaxLength="50" />
+          <Property Name="Tipo" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Clases Carrera">
+          <Key>
+            <PropertyRef Name="Código de Clase" />
+            <PropertyRef Name="Código de Carrera" />
+          </Key>
+          <Property Name="Código de Clase" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Código de Carrera" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Clases Maestro">
+          <Key>
+            <PropertyRef Name="Código Usuario" />
+            <PropertyRef Name="Código de Clase" />
+          </Key>
+          <Property Name="Código Usuario" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Código de Clase" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Solicitudes">
+          <Key>
+            <PropertyRef Name="Código de solicitud" />
+          </Key>
+          <Property Name="Código de solicitud" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Código usuario" Type="nvarchar" MaxLength="50" />
+          <Property Name="Fecha" Type="nvarchar" MaxLength="50" />
+          <Property Name="Cantidad a color" Type="nvarchar" MaxLength="50" />
+          <Property Name="Cantidad blanco y negro" Type="nvarchar" MaxLength="50" />
+          <Property Name="Tipo" Type="nvarchar" MaxLength="50" />
+          <Property Name="Código de clase" Type="nvarchar" MaxLength="50" />
+          <Property Name="Código de maestro" Type="nvarchar" MaxLength="50" />
+          <Property Name="Estado" Type="nvarchar" MaxLength="50" />
+          <Property Name="Observaciones" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Usuario">
+          <Key>
+            <PropertyRef Name="Código" />
+          </Key>
+          <Property Name="Código" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Contraseña" Type="nvarchar" MaxLength="50" />
+          <Property Name="Identidad" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nombre Completo" Type="nvarchar" MaxLength="50" />
+          <Property Name="Género" Type="nvarchar" MaxLength="50" />
+          <Property Name="Correo" Type="nvarchar" MaxLength="50" />
+          <Property Name="Teléfono" Type="nvarchar" MaxLength="50" />
+          <Property Name="Rol" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="ProyectoModelStoreContainer">
+          <EntitySet Name="Carreras" EntityType="Self.Carreras" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Clases" EntityType="Self.Clases" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Clases Carrera" EntityType="Self.Clases Carrera" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Clases Maestro" EntityType="Self.Clases Maestro" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Solicitudes" EntityType="Self.Solicitudes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ProyectoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Usuario">
+          <Key>
+            <PropertyRef Name="Código" />
+          </Key>
+          <Property Name="Código" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Contraseña" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Identidad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Nombre_Completo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Género" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Correo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Teléfono" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Rol" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="ProyectoEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Usuarios" EntityType="Self.Usuario" />
+          <EntitySet Name="Carreras" EntityType="ProyectoModel.Carrera" />
+          <EntitySet Name="Clases" EntityType="ProyectoModel.Clase" />
+          <EntitySet Name="Clases_Carreras" EntityType="ProyectoModel.Clases_Carrera" />
+          <EntitySet Name="Clases_Maestros" EntityType="ProyectoModel.Clases_Maestro" />
+          <EntitySet Name="Solicitudes" EntityType="ProyectoModel.Solicitude" />
+        </EntityContainer>
+        <EntityType Name="Carrera">
+          <Key>
+            <PropertyRef Name="Código_de_carrera" />
+          </Key>
+          <Property Name="Código_de_carrera" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Nombre_de_carrera" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Cantidad_de_clases" Type="Int32" />
+          <Property Name="Cantidad_de_Maestros" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Clase">
+          <Key>
+            <PropertyRef Name="Código_de_clase" />
+          </Key>
+          <Property Name="Código_de_clase" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Descripción_de_clase" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Tipo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Clases_Carrera">
+          <Key>
+            <PropertyRef Name="Código_de_Clase" />
+            <PropertyRef Name="Código_de_Carrera" />
+          </Key>
+          <Property Name="Código_de_Clase" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Código_de_Carrera" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Clases_Maestro">
+          <Key>
+            <PropertyRef Name="Código_Usuario" />
+            <PropertyRef Name="Código_de_Clase" />
+          </Key>
+          <Property Name="Código_Usuario" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Código_de_Clase" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Solicitude">
+          <Key>
+            <PropertyRef Name="Código_de_solicitud" />
+          </Key>
+          <Property Name="Código_de_solicitud" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Código_usuario" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Fecha" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Cantidad_a_color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Cantidad_blanco_y_negro" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Tipo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Código_de_clase" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Código_de_maestro" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Estado" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Observaciones" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ProyectoModelStoreContainer" CdmEntityContainer="ProyectoEntities">
+          <EntitySetMapping Name="Usuarios">
+            <EntityTypeMapping TypeName="ProyectoModel.Usuario">
+              <MappingFragment StoreEntitySet="Usuario">
+                <ScalarProperty Name="Código" ColumnName="Código" />
+                <ScalarProperty Name="Contraseña" ColumnName="Contraseña" />
+                <ScalarProperty Name="Identidad" ColumnName="Identidad" />
+                <ScalarProperty Name="Nombre_Completo" ColumnName="Nombre Completo" />
+                <ScalarProperty Name="Género" ColumnName="Género" />
+                <ScalarProperty Name="Correo" ColumnName="Correo" />
+                <ScalarProperty Name="Teléfono" ColumnName="Teléfono" />
+                <ScalarProperty Name="Rol" ColumnName="Rol" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Carreras">
+            <EntityTypeMapping TypeName="ProyectoModel.Carrera">
+              <MappingFragment StoreEntitySet="Carreras">
+                <ScalarProperty Name="Cantidad_de_Maestros" ColumnName="Cantidad de Maestros" />
+                <ScalarProperty Name="Cantidad_de_clases" ColumnName="Cantidad de clases" />
+                <ScalarProperty Name="Nombre_de_carrera" ColumnName="Nombre de carrera" />
+                <ScalarProperty Name="Código_de_carrera" ColumnName="Código de carrera" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Clases">
+            <EntityTypeMapping TypeName="ProyectoModel.Clase">
+              <MappingFragment StoreEntitySet="Clases">
+                <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+                <ScalarProperty Name="Descripción_de_clase" ColumnName="Descripción de clase" />
+                <ScalarProperty Name="Código_de_clase" ColumnName="Código de clase" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Clases_Carreras">
+            <EntityTypeMapping TypeName="ProyectoModel.Clases_Carrera">
+              <MappingFragment StoreEntitySet="Clases Carrera">
+                <ScalarProperty Name="Código_de_Carrera" ColumnName="Código de Carrera" />
+                <ScalarProperty Name="Código_de_Clase" ColumnName="Código de Clase" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Clases_Maestros">
+            <EntityTypeMapping TypeName="ProyectoModel.Clases_Maestro">
+              <MappingFragment StoreEntitySet="Clases Maestro">
+                <ScalarProperty Name="Código_de_Clase" ColumnName="Código de Clase" />
+                <ScalarProperty Name="Código_Usuario" ColumnName="Código Usuario" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Solicitudes">
+            <EntityTypeMapping TypeName="ProyectoModel.Solicitude">
+              <MappingFragment StoreEntitySet="Solicitudes">
+                <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+                <ScalarProperty Name="Código_de_maestro" ColumnName="Código de maestro" />
+                <ScalarProperty Name="Código_de_clase" ColumnName="Código de clase" />
+                <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+                <ScalarProperty Name="Cantidad_blanco_y_negro" ColumnName="Cantidad blanco y negro" />
+                <ScalarProperty Name="Cantidad_a_color" ColumnName="Cantidad a color" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Código_usuario" ColumnName="Código usuario" />
+                <ScalarProperty Name="Código_de_solicitud" ColumnName="Código de solicitud" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

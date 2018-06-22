@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProyectoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Código" />
+    </Key>
+    <Property Name="Código" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Contraseña" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Identidad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Nombre_Completo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Género" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Correo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Teléfono" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Rol" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="ProyectoEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Usuarios" EntityType="Self.Usuario" />
+    <EntitySet Name="Carreras" EntityType="ProyectoModel.Carrera" />
+    <EntitySet Name="Clases" EntityType="ProyectoModel.Clase" />
+    <EntitySet Name="Clases_Carreras" EntityType="ProyectoModel.Clases_Carrera" />
+    <EntitySet Name="Clases_Maestros" EntityType="ProyectoModel.Clases_Maestro" />
+    <EntitySet Name="Solicitudes" EntityType="ProyectoModel.Solicitude" />
+  </EntityContainer>
+  <EntityType Name="Carrera">
+    <Key>
+      <PropertyRef Name="Código_de_carrera" />
+    </Key>
+    <Property Name="Código_de_carrera" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Nombre_de_carrera" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Cantidad_de_clases" Type="Int32" />
+    <Property Name="Cantidad_de_Maestros" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Clase">
+    <Key>
+      <PropertyRef Name="Código_de_clase" />
+    </Key>
+    <Property Name="Código_de_clase" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Descripción_de_clase" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Tipo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Clases_Carrera">
+    <Key>
+      <PropertyRef Name="Código_de_Clase" />
+      <PropertyRef Name="Código_de_Carrera" />
+    </Key>
+    <Property Name="Código_de_Clase" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Código_de_Carrera" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Clases_Maestro">
+    <Key>
+      <PropertyRef Name="Código_Usuario" />
+      <PropertyRef Name="Código_de_Clase" />
+    </Key>
+    <Property Name="Código_Usuario" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Código_de_Clase" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Solicitude">
+    <Key>
+      <PropertyRef Name="Código_de_solicitud" />
+    </Key>
+    <Property Name="Código_de_solicitud" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Código_usuario" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Fecha" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Cantidad_a_color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Cantidad_blanco_y_negro" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Tipo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Código_de_clase" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Código_de_maestro" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Estado" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Observaciones" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

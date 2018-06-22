@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProyectoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Carreras">
+    <Key>
+      <PropertyRef Name="Código de carrera" />
+    </Key>
+    <Property Name="Código de carrera" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Nombre de carrera" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cantidad de clases" Type="int" />
+    <Property Name="Cantidad de Maestros" Type="int" />
+  </EntityType>
+  <EntityType Name="Clases">
+    <Key>
+      <PropertyRef Name="Código de clase" />
+    </Key>
+    <Property Name="Código de clase" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Descripción de clase" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tipo" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Clases Carrera">
+    <Key>
+      <PropertyRef Name="Código de Clase" />
+      <PropertyRef Name="Código de Carrera" />
+    </Key>
+    <Property Name="Código de Clase" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Código de Carrera" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Clases Maestro">
+    <Key>
+      <PropertyRef Name="Código Usuario" />
+      <PropertyRef Name="Código de Clase" />
+    </Key>
+    <Property Name="Código Usuario" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Código de Clase" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Solicitudes">
+    <Key>
+      <PropertyRef Name="Código de solicitud" />
+    </Key>
+    <Property Name="Código de solicitud" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Código usuario" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fecha" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cantidad a color" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cantidad blanco y negro" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tipo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Código de clase" Type="nvarchar" MaxLength="50" />
+    <Property Name="Código de maestro" Type="nvarchar" MaxLength="50" />
+    <Property Name="Estado" Type="nvarchar" MaxLength="50" />
+    <Property Name="Observaciones" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Código" />
+    </Key>
+    <Property Name="Código" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Contraseña" Type="nvarchar" MaxLength="50" />
+    <Property Name="Identidad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Nombre Completo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Género" Type="nvarchar" MaxLength="50" />
+    <Property Name="Correo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Teléfono" Type="nvarchar" MaxLength="50" />
+    <Property Name="Rol" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="ProyectoModelStoreContainer">
+    <EntitySet Name="Carreras" EntityType="Self.Carreras" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Clases" EntityType="Self.Clases" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Clases Carrera" EntityType="Self.Clases Carrera" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Clases Maestro" EntityType="Self.Clases Maestro" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Solicitudes" EntityType="Self.Solicitudes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

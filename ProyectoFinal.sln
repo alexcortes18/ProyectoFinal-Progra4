@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoVisual", "ProyectoVisual\ProyectoVisual.csproj", "{C9B62019-B43B-4B57-9F28-4DF301AF06AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConexionDB", "ConexionDB\ConexionDB.csproj", "{7435F7E9-3C53-4DB6-8215-399B33D30274}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9B62019-B43B-4B57-9F28-4DF301AF06AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B62019-B43B-4B57-9F28-4DF301AF06AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B62019-B43B-4B57-9F28-4DF301AF06AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B62019-B43B-4B57-9F28-4DF301AF06AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7435F7E9-3C53-4DB6-8215-399B33D30274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7435F7E9-3C53-4DB6-8215-399B33D30274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7435F7E9-3C53-4DB6-8215-399B33D30274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7435F7E9-3C53-4DB6-8215-399B33D30274}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3E04242-AF9A-43B0-B1E9-AA11895F7E05}
+	EndGlobalSection
+EndGlobal

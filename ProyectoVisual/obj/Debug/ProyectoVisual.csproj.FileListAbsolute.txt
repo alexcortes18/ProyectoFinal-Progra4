@@ -1,0 +1,76 @@
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\bin\Debug\ProyectoVisual.exe.config
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\bin\Debug\ProyectoVisual.exe
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\bin\Debug\ProyectoVisual.pdb
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\bin\Debug\EntityFramework.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\bin\Debug\EntityFramework.xml
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\obj\Debug\ProyectoVisual.Form1.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\obj\Debug\ProyectoVisual.Properties.Resources.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\obj\Debug\ProyectoVisual.Rol.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\obj\Debug\ProyectoVisual.UsuariosForm.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\obj\Debug\ProyectoVisual.csproj.GenerateResource.cache
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\obj\Debug\ProyectoVisual.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\obj\Debug\ProyectoVisual.csproj.CopyComplete
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\obj\Debug\ProyectoVisual.exe
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\obj\Debug\ProyectoVisual.pdb
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\obj\Debug\ProyectoVisual.csprojAssemblyReference.cache
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\bin\Debug\ConexionDB.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\bin\Debug\ConexionDB.pdb
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - Copy\ProyectoVisual\bin\Debug\ConexionDB.dll.config
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\obj\Debug\ProyectoVisual.Properties.Resources.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\obj\Debug\ProyectoVisual.UsuariosForm.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\obj\Debug\ProyectoVisual.csproj.GenerateResource.cache
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\obj\Debug\ProyectoVisual.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\obj\Debug\ProyectoVisual.csprojAssemblyReference.cache
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\bin\Debug\ProyectoVisual.exe.config
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\bin\Debug\ProyectoVisual.exe
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\bin\Debug\ProyectoVisual.pdb
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\bin\Debug\ConexionDB.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\bin\Debug\EntityFramework.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\bin\Debug\ConexionDB.pdb
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\bin\Debug\ConexionDB.dll.config
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\bin\Debug\EntityFramework.xml
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\obj\Debug\ProyectoVisual.csproj.CopyComplete
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\obj\Debug\ProyectoVisual.exe
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\obj\Debug\ProyectoVisual.pdb
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\obj\Debug\ProyectoVisual.Registro.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\obj\Debug\ProyectoVisual.Carreras.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\obj\Debug\ProyectoVisual.Administrador.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\obj\Debug\ProyectoVisual.Maestro.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\obj\Debug\ProyectoVisual.Oficial.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\obj\Debug\ProyectoVisual.Inicio.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\obj\Debug\ProyectoVisual.Clases_de_Carrera.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\obj\Debug\ProyectoVisual.Clases_de_Maestro.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\obj\Debug\ProyectoVisual.Clases_Totales.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal\ProyectoVisual\obj\Debug\ProyectoVisual.Solicitudes.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\bin\Debug\ProyectoVisual.exe.config
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\bin\Debug\ProyectoVisual.exe
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\bin\Debug\ProyectoVisual.pdb
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\bin\Debug\ConexionDB.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\bin\Debug\EntityFramework.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\bin\Debug\ConexionDB.pdb
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\bin\Debug\ConexionDB.dll.config
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\bin\Debug\EntityFramework.xml
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\obj\Debug\ProyectoVisual.csprojAssemblyReference.cache
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\obj\Debug\ProyectoVisual.Carreras.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\obj\Debug\ProyectoVisual.Clases_de_Carrera.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\obj\Debug\ProyectoVisual.Clases_de_Maestro.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\obj\Debug\ProyectoVisual.Clases_Totales.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\obj\Debug\ProyectoVisual.Inicio.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\obj\Debug\ProyectoVisual.Maestro.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\obj\Debug\ProyectoVisual.Oficial.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\obj\Debug\ProyectoVisual.Properties.Resources.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\obj\Debug\ProyectoVisual.Registro.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\obj\Debug\ProyectoVisual.Administrador.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\obj\Debug\ProyectoVisual.Solicitudes.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\obj\Debug\ProyectoVisual.UsuariosForm.resources
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\obj\Debug\ProyectoVisual.csproj.GenerateResource.cache
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\obj\Debug\ProyectoVisual.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\obj\Debug\ProyectoVisual.csproj.CopyComplete
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\obj\Debug\ProyectoVisual.exe
+C:\Users\Alejandro\Documents\Ceutec\PrograIV\ProyectoFinal - backp 6-16-18  5pm\ProyectoVisual\obj\Debug\ProyectoVisual.pdb
